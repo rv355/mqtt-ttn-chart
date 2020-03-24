@@ -76,3 +76,7 @@ Currently temperature, co2, light and humidity data are supported. To view the s
 
 * **Rohit Verma** - [GitHub](https://github.com/rv355)
 
+## Acknowledgement
+
+* **Nick Jokic** - [GitHub](https://github.com/NickJokic)
+
