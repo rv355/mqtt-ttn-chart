@@ -51,7 +51,7 @@ npm start
 
 After compilation, you will see the link in the terminal *(e.g. http://localhost:8080)* where the application is currently running. Use your browser to navigate to that link.
 
-Currently temperature, co2, light and humidity data are supported. To view the specific feature data go to http://localhost:8080/<feature>. The default is temperature. Note that not all sensors have all features and in those cases a blank chart would be seen.
+Currently temperature, co2, light and humidity data are supported. To view the specific feature data go to http://localhost:8080/feature. The default is temperature. Note that not all sensors have all features and in those cases a blank chart would be seen.
 
 
 
