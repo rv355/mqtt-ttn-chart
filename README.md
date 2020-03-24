@@ -30,8 +30,10 @@ Navigate inside the root folder and run:
 
 Add appropriate data for opt, mqttClient, mqttTopic, and sensor in the app.js file.
 
+```
 npm install
 npm start
+```
 
 this will install the dependencies and start the express server locally on port 3000.
 
