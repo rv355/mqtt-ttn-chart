@@ -62,6 +62,8 @@ After compilation, you will see the link in the terminal *(e.g. http://localhost
 
 Currently temperature, co2, light and humidity data are supported. To view the specific feature data go to http://localhost:8080/feature. The default is temperature. Note that not all sensors have all features and in those cases a blank chart would be seen.
 
+## Known Issues
+There are some known issues which have listed in the issues of the repository and the related fixes also provided.
 
 ## Work in Progress
 + Navigation between components
