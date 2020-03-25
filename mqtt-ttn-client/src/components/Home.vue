@@ -3,7 +3,7 @@
         <div class="container-fluid">
             <div class="row text-center">
                 <div class="col-xs-12 col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3 col-lg-4 col-lg-offset-4">
-                    <h1>Status: {{connStatus}}</h1>
+                    <h3>Status: {{connStatus}}</h3>
                     
                     <!-- Panel div start -->
                     <div class="panel panel-primary">
