@@ -1,6 +1,7 @@
 <template>
   <div id="app">
-    <router-view/>
+    <Nav></Nav>
+    <router-view/>    
   </div>
 </template>
 
@@ -10,10 +11,12 @@
     import Humidity from '@/components/humidity'
     import Light from '@/components/light'
     import Temperature from '@/components/temperature'
+    import Nav from '@/components/nav'
 
     export default {
         name: 'App',
         components: {
+            Nav,
             Home,
             Co2,
             Humidity,
