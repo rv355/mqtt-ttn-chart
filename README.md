@@ -1,4 +1,4 @@
-This project demonstrates the visualization of data streams received from multiple sensors over MQTT through The Things Network.
+This project demonstrates the visualization of data streams received from multiple sensors over MQTT through The Things Network. (Could be modified to serve other MQTT brokers too.)
 
 ## Features
 ### Server
@@ -54,6 +54,10 @@ After compilation, you will see the link in the terminal *(e.g. http://localhost
 Currently temperature, co2, light and humidity data are supported. To view the specific feature data go to http://localhost:8080/feature. The default is temperature. Note that not all sensors have all features and in those cases a blank chart would be seen.
 
 
+## Work in Progress
++ Navigation between components
++ A component to localize all sensors on map
++ A component to plot historical data of different sensors and features.
 
 
 ## Built With
