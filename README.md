@@ -49,8 +49,6 @@ this will install the dependencies and start the express server locally on port 
 
 ## 2. client
 
-*Before running the client, be sure you have already completed steps 1 and 2, and have both Moquette and mqtt-realtime-chart-server running in separate terminal windows.*
-
 Open a new terminal window and navigate inside the root folder of the client application, then run:
 
 ```
