@@ -5,4 +5,5 @@ node_modules
 mqtt-ttn-server/src/config.json
 
 #Ignore debug-log
-npm-debug.log
+mqtt-ttn-server/npm-debug.log
+mqtt-ttn-client/npm-debug.log
