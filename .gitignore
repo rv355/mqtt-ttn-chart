@@ -3,3 +3,6 @@ node_modules
 
 #Ignore config file on server
 mqtt-ttn-server/src/config.json
+
+#Ignore debug-log
+npm-debug.log
