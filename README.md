@@ -26,7 +26,7 @@ To get started with this project, follow the installation steps described here,
 
 ## 1. server
 
-Create a config.json file like this
+Create a config.json file like this,
 
 ```
 {
