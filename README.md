@@ -82,5 +82,5 @@ Currently temperature, co2, light and humidity data are supported. To view the s
 
 ## Acknowledgement
 
-* **Nick Jokic** - [GitHub](https://github.com/NickJokic)
+* **Nick Jokic** for JavaScript: Real-time visualization of high-frequency streams (https://itnext.io/javascript-real-time-visualization-of-high-frequency-streams-d6533c774794)
 
