@@ -1,11 +1,12 @@
+const config = require('./config.json');
 const express = require('express'),
     app = express(),
     bodyParser = require('body-parser'),
-    opt = {username: '', password: ''},
+    opt = {username: config.username, password: config.password},
     mqtt = require('mqtt'),
-    mqttClient = mqtt.connect('mqtt://hostname', opt),
-    mqttTopic = '',
-    sensor = ''
+    mqttClient = mqtt.connect(config.hostname, opt),
+    mqttTopic = config.mqttTopic,
+    sensor = config.sensor
     server = require('http').createServer(app),
     io = require('socket.io').listen(server);
 

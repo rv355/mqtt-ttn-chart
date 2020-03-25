@@ -26,9 +26,18 @@ To get started with this project, follow the installation steps described here,
 
 ## 1. server
 
-Navigate inside the root folder and run:
+Create a config.json file like this
 
-Add appropriate data for opt, mqttClient, mqttTopic, and sensor in the app.js file.
+```
+{
+    "username": "user",
+    "password": "pwd",
+    "hostname": "mqtt://hostname",
+    "mqttTopic": "topic",
+    "sensor": "sens"
+}
+```
+Navigate inside the root folder and run,
 
 ```
 npm install
