@@ -9,7 +9,7 @@ app = Flask(__name__)
 
 cors = CORS(app)
 
-basePath = "../../ttn_data/mnt/tfc_data/tfc/csn_ttn/data_bin/"
+basePath = "/media/acp/mqtt_ttn/data_bin/"
 DEBUG = True
 
 def date_to_path(selecteddate):
