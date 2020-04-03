@@ -1,3 +1,5 @@
+Moved to *https://github.com/AdaptiveCity/acp_sensor_debug.git*
+
 This project demonstrates the visualization of data streams received from multiple sensors over MQTT through The Things Network. (Could be modified to serve other MQTT brokers too.)
 
 ## Features
