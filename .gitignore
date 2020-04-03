@@ -7,3 +7,12 @@ mqtt-ttn-server/src/config.json
 #Ignore debug-log
 mqtt-ttn-server/npm-debug.log
 mqtt-ttn-client/npm-debug.log
+
+#Ignore dummy view
+mqtt-ttn-chart/mqtt-ttn-client/src/components/offline.vue
+
+#Ignore test script
+mqtt-ttn-chart/mqtt-ttn-client/static/offlinecharts/script.js
+
+#Ignore proxyserver
+mqtt-ttn-chart/proxy-server

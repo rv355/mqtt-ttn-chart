@@ -11,7 +11,6 @@ const express = require('express'),
     io = require('socket.io').listen(server);
 
 var streamInterval;
-var msFrequency = 20;
 
 /* 
 Subscribe to MQTT topic
